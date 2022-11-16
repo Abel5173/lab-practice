@@ -1,0 +1,14 @@
+.cal{
+    width: 200px;
+    height: 200px;
+    border: 5px solid blue;
+    display: flex;
+    flex-direction: column;
+}
+.num{
+    display: flex;
+    justify-content: center space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+}
