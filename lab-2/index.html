@@ -8,24 +8,35 @@
     <title>Document</title>
     <style>
         body{
-            background-image: url(./image/e8b4bd27-c001-4705-bd44-db35e89d0b18.jpeg);
-            /* background-image: linear-gradient(to bottom right, rgba(15, 159, 85, 0.773), rgba(123, 0, 255, 0.723)); */
+            /* background-image: url(./image/e8b4bd27-c001-4705-bd44-db35e89d0b18.jpeg); */
+            background-image: linear-gradient(to bottom right, rgb(15, 44, 159), rgb(0, 255, 26));
             /* text-align: center; */
             background-repeat: no-repeat;
             background-size: cover;
             color: aliceblue;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: medium;
+            /* font-weight: bold; */
+            font-style: italic;
+            
         }
         #id1{
-            color: green;
+            color: rgb(126, 252, 81);
             text-align: left;
+            text-transform: uppercase;
+            text-decoration: underline;
         }
         #id3{
-            color: tomato;
+            color: rgb(196, 246, 174);
+            font-style: inherit;
+            /* font-weight: bolder; */
+            text-transform: uppercase;
+            text-indent: 1rem;
         }
         ul > li{
             list-style: square;
         }
-
+        
     </style>
 
 </head>
@@ -34,6 +45,8 @@
         <h1>HTML Forms</h1>
         <h1 id="id1">Lorem ipsum dolor sit amet.</h1>
         <h2 id="id2">Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
+        <h5 id="id3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ea necessitatibus voluptates temporibus cupiditate delectus explicabo eum ipsum ab sed inventore voluptatem repudiandae labore nesciunt animi quasi ut, dolorum incidunt doloremque harum provident! Nihil doloremque voluptatum dignissimos atque cumque exercitationem porro quae iure, soluta tempora earum quasi delectus aliquid saepe?</h5>
+        <a href="www.google.com">Google</a>
         <form action="#">
             <label for="fName">First name: </label>
             <input type="text" name="fName" placeholder="First Name"><br><br>
