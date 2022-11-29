@@ -1,7 +1,12 @@
+body{
+    /* background-image: url(./e8b4bd27-c001-4705-bd44-db35e89d0b18.jpeg); */
+    background: linear-gradient(to bottom right, rgba(234, 3, 0, 0.2), rgba(31, 234, 0, 0.8)));
+}
 div{
     /* text-align: center; */
     /* display: flex;
     justify-content: space-between  ; */
+    color: rgb(4, 59, 40);
     padding: 10px;
     margin: 10px;
     width: 550px;
