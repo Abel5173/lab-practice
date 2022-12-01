@@ -35,6 +35,7 @@ body{
 }
 .btn{
    display: flex;    
+   align-items: space-around;
 }
 .all{
     border: 5px solid tomato;
