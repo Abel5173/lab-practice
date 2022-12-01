@@ -4,12 +4,13 @@
     box-sizing: border-box;
 }
 body{
-    /* background-color: rgb(232, 240, 248); */
+    background-color: rgb(229, 227, 227);
     /* text-align: center; */
 }
 .box{
     margin-top: 25px;
-    /* background-color: rgb(228, 230, 232); */
+    background-color: rgb(242, 237, 237) ;
+    box-shadow: rgb(255, 255, 255) -5px -5px 10px 5px, rgb(169, 167, 167) 3px 3px 16px 1px;
     /*padding: 15px;
     /* padding-top: 30px; */ 
     position: absolute;
@@ -19,12 +20,13 @@ body{
     height: 600px;
     border: 3px solid rgb(223, 232, 231);
     border-radius:10px;
-    box-shadow: 15px 15px 5px 5px rgb(252, 239, 239);
+    /* box-shadow: 15px 15px 5px 5px rgb(252, 239, 239); */
 }
 .inpt{
     margin-top: 35px;
     border: 2px solid antiquewhite;
-    box-shadow: rgb(212, 215, 217) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.926) -3px -3px 6px 1px;
+    background-color: rgba(225, 223, 223, 0.611);
+    box-shadow: rgb(255, 255, 255) -5px -5px 10px 5px inset, rgb(169, 167, 167) 3px 3px 16px 1px inset;
     width: 330px;
     height: 75px;
     text-align: right;
@@ -40,10 +42,11 @@ body{
 .btn{
     border-radius: 10px;
     border-color: rgb(246, 248, 250);
+    box-shadow: rgb(255, 255, 255) -5px -5px 10px 5px, rgb(169, 167, 167) 3px 3px 16px 1px;
     margin-top: 20px;
     width: 65px;
     height: 65px;
-    box-shadow: 5px 5px 5px 5px rgb(252, 240, 240);
+    /* box-shadow: 5px 5px 5px 5px rgb(252, 240, 240); */
     font-weight: 800;
     font-size: 30px;
 }
