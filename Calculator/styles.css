@@ -9,7 +9,7 @@ body{
 }
 .box{
     margin-top: 25px;
-    background-color: rgb(242, 237, 237) ;
+    background-color: rgb(229, 227, 227);
     box-shadow: rgb(255, 255, 255) -5px -5px 10px 5px, rgb(169, 167, 167) 3px 3px 16px 1px;
     /*padding: 15px;
     /* padding-top: 30px; */ 
@@ -17,8 +17,8 @@ body{
     left: 35%;
     text-align: center;
     width: 420px;
-    height: 600px;
-    border-radius:10px;
+    height: 630px;
+    border-radius:15px;
     /* box-shadow: 15px 15px 5px 5px rgb(252, 239, 239); */
 }
 .inpt{
@@ -41,9 +41,10 @@ body{
 }
 .btn{
     border-radius: 10px;
-    border-color: rgb(246, 246, 246);
+    border: 2px solid antiquewhite;
+    
     box-shadow: rgb(255, 255, 255) -5px -5px 10px 5px, rgb(169, 167, 167) 3px 3px 16px 1px;
-    margin-top: 20px;
+    margin-top: 25px;
     width: 65px;
     height: 65px;
     /* box-shadow: 5px 5px 5px 5px rgb(252, 240, 240); */
