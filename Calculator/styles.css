@@ -8,14 +8,40 @@ body{
 }
 .box{
     margin: 25px;
+    padding: 15px;
+    padding-top: 30px;
     position: absolute;
     left: 35%;
+    text-align: center;
     width: 400px;
     height: 600px;
     border: 3px solid black;
-    border-radius: 1rem;
+    border-radius:10px;
 }
 .inpt{
-    margin: 15px;
     width: 350px;
+    height: 75px;
+    text-align: right;
+    padding: 10px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btns{
+    margin-top: 25px;
+    position: absolute;
+    /* left: 15%; */
+    text-align: center;
+    width: 350px;
+}
+.btn{
+   display: flex;    
+}
+.all{
+    border: 5px solid tomato;
+    width: 70px;
+    height: 75px;
+    border-radius: 5px;
+    margin: 15px;
+    margin-top: 25px;
+    /* text-align: center; */
 }
