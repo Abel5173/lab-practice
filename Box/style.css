@@ -20,14 +20,21 @@ h3{
     margin-left: 20px;
     margin-right: 20px;
 }
-
+/* .side-center{
+    display: inline;
+} */
 .sidebar{
+    display: inline-block;
     width: 150px;
     border: 5px solid green;
     height: 300px;
     margin-left: 20px;
+    margin-right: 45px;
 }
 .content{
+    width: 1220px;
+    height: 300px;
+    display: inline-block;
     border: 5px solid rgb(255, 60, 0);
 }
 
